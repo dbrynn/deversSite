@@ -1,0 +1,48 @@
+/* General Styles */
+body {
+    background-color: #f9f9f9; /* background color */
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333333;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 15px;
+}
+nav a:hover {
+    color: #fc35ad;
+}
+
+/* Homepage Styles */
+h1 { /* homepage header */
+    color: #fc35ad;
+}
+p { /* homepage paragraphs */
+    color: #337ab7;
+}
+
+/* About Me Page Styles */
+.about h1 { /* name heading */
+    color: #ff5733;
+}
+.about p:first-of-type { /* intro paragraph */
+    color: #339966;
+}
+.about p:last-of-type { /* Hobby paragraph */
+    color: #6633cc;
+}
+
+/* Contact Me Page Styles */
+.contact label {
+    color: #ff5733;
+}
+.contact input, .contact textarea {
+    background-color: #f2f2f2;
+    border: 1px solid #cccccc;
+}
